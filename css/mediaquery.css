@@ -1,0 +1,104 @@
+/**
+ * Navbar & header
+ *
+ * @format
+ */
+
+@media (500px<= width <=996px) {
+  .navbar-nav {
+    padding: 20px 0;
+    text-align: center;
+  }
+  .navbar-nav .nav-item .nav-link {
+    color: #000 !important;
+  }
+  .navbar-nav .nav-item .active::before {
+    visibility: hidden;
+  }
+  .navbar-toggler {
+    border: none;
+    color: #000;
+  }
+  .navbar-toggler span {
+    color: #000 !important;
+  }
+}
+
+/* End Navbar & header */
+/* Start Home Section */
+@media (500px<= width <=768px) {
+  .home .bg-layer .container .home-title h2 {
+    font-size: 40px;
+  }
+  .home .bg-layer .container .home-title h1 {
+    font-size: 50px;
+  }
+  .home .bg-layer .container .home-title li i {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .about {
+    padding: 80px 0;
+  }
+  .about-img {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .about-img::after {
+    left: 0;
+  }
+  .about-img img {
+    left: 25px;
+  }
+}
+/* End Home Section */
+
+@media (500px<= width <=768px) {
+  .service-item {
+    margin-top: 20px;
+  }
+  .line-br {
+    width: 31%;
+    top: 15px;
+    left: 35%;
+  }
+}
+@media (min-width: 768px) {
+  .service-item {
+    width: 30%;
+  }
+}
+
+@media (768px < width <996px) {
+  .line-br {
+    width: 25%;
+    left: 37.5%;
+  }
+}
+@media (996px <width< 1200px) {
+  .line-br {
+    width: 20%;
+    position: absolute;
+    top: 25px;
+    left: 40%;
+  }
+}
+
+@media (500px<= width <=768px) {
+  .service-item {
+    margin-top: 20px;
+  }
+  .line-br {
+    width: 31%;
+    top: 15px;
+    left: 35%;
+  }
+  .carousel-control-next .seconddot{
+    position: relative;
+    left: 8px;
+  }
+  .carousel-control-next .thirddot{
+    position: relative;
+    left: 30px;
+  }
+}
